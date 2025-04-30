@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caibot - Chatbot Solutions for Small Businesses</title>
+    <meta name="description" content="Caibot provides intelligent chatbot solutions for small businesses and online stores.">
+    <meta name="keywords" content="chatbots, small business, online store, customer support, lead generation">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Caibot</div>
+        <button class="menu-toggle">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a id="home"></a>
+        <section data-aos="fade-up">
+            <div class="home-content">
+                <h1>Empower Your Business with Intelligent Chatbots</h1>
+                <p>Caibot provides cutting-edge chatbot solutions for small businesses and online stores.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </section>
+        <a id="about"></a>
+        <section data-aos="fade-up">
+            <h2>About Caibot</h2>
+            <p>Caibot is dedicated to helping small businesses thrive in the digital age. Our chatbots automate customer interactions, provide instant support, and boost sales—all tailored for small businesses and online stores.</p>
+            <img src="https://via.placeholder.com/300x200?text=Chatbot+Illustration" alt="Chatbot Illustration">
+        </section>
+        <a id="services"></a>
+        <section data-aos="fade-up">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Answer customer queries anytime, anywhere with our always-on chatbots.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-users"></i>
+                    <h3>Lead Generation</h3>
+                    <p>Capture leads effortlessly by engaging visitors and collecting key info.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Appointment Scheduling</h3>
+                    <p>Let customers book appointments directly through the chatbot.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-box"></i>
+                    <h3>Order Tracking</h3>
+                    <p>Keep customers updated on their orders with automated tracking.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-robot"></i>
+                    <h3>Personalized Recommendations</h3>
+                    <p>Boost sales with tailored product or service suggestions.</p>
+                </div>
+            </div>
+        </section>
+        <a id="pricing"></a>
+        <section data-aos="fade-up">
+            <h2>Pricing</h2>
+            <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <p>Setup Fee: $25 (one-time)</p>
+                <p>Monthly Fee: $20</p>
+                <ul>
+                    <li>24/7 Customer Support</li>
+                    <li>Lead Generation</li>
+                    <li>Customizable Chatbot</li>
+                    <li>Website Integration</li>
+                    <li>Basic Analytics</li>
+                </ul>
+                <p><em>More plans coming soon!</em></p>
+                <a href="#contact" class="btn">Contact Us to Get Started</a>
+            </div>
+        </section>
+        <a id="contact"></a>
+        <section data-aos="fade-up">
+            <h2>Get in Touch</h2>
+            <p>Phone: +201011333671</p>
+            <p>Email: ramezhatem2020@gmail.com</p>
+            <form action="https://formspree.io/f/xqaqegqy" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>We respect your privacy and will not share your information.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Caibot. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
